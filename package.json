@@ -1,5 +1,5 @@
 {
-  "name": "@aithercore/aither-build",
+  "name": "@aithercore/bitcore-build-aither",
   "version": "0.9.0",
   "description": "A helper for common tasks to build bitcore-dash modules'",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aithercore/aither-build"
+    "url": "git://github.com/aithercore/bitcore-build-aither"
   },
   "keywords": [
     "bitcore"
@@ -37,9 +37,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aithercore/aither-build/issues"
+    "url": "https://github.com/aithercore/bitcore-build-aither/issues"
   },
-  "homepage": "https://github.com/aithercore/aither-build",
+  "homepage": "https://github.com/aithercore/bitcore-build-aither",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
