@@ -1,4 +1,4 @@
-# bitcore-build-dash
+# aither-build
 
 A helper to add tasks to gulp.
 
@@ -7,14 +7,14 @@ A helper to add tasks to gulp.
 Install with:
 
 ```sh
-npm install @flus38765/aither-build
+npm install @aithercore/aither-build
 ```
 
 and use and require in your gulp file: 
 
 ```javascript
 var gulp = require('gulp');
-var bitcoreTasks = require('bitcore-build-dash');
+var bitcoreTasks = require('aither-build');
 
 bitcoreTasks('submodule');
 gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
@@ -25,7 +25,7 @@ gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 * There's no default task to allow for each submodule to set up their own configuration
 * If the module is node-only, avoid adding the browser tasks with:
 ```javascript
-var bitcoreTasks = require('bitcore-build-dash');
+var bitcoreTasks = require('aither-build');
 bitcoreTasks('submodule', {skipBrowsers: true});
 ```
 
