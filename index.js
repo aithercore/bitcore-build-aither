@@ -59,7 +59,7 @@ function startGulp(name, opts) {
   var tests = ['test/**/*.js'];
   var alljs = files.concat(tests);
 
-  var buildPath = './node_modules/bitcore-build-aither/';
+  var buildPath = './node_modules/aither-build/';
   var buildModulesPath = buildPath + 'node_modules/';
   var buildBinPath = buildPath + 'node_modules/.bin/';
 
@@ -129,9 +129,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-aither -o ' + fullname + '.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external aither-lib -o ' + fullname + '.js';
     } else {
-      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-aither -o bitcore-lib-aither.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:aither-lib -o aither-lib.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
