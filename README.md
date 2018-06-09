@@ -7,7 +7,7 @@ A helper to add tasks to gulp.
 Install with:
 
 ```sh
-npm install bitcore-build-dash
+npm install @flus38765/aither-build
 ```
 
 and use and require in your gulp file: 

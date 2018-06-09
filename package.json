@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-build-dash",
+  "name": "@flus38765/aither-build",
   "version": "0.9.0",
   "description": "A helper for common tasks to build bitcore-dash modules'",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dashpay/bitcore-build-dash"
+    "url": "git://github.com/flus38765/aither-build"
   },
   "keywords": [
     "bitcore"
